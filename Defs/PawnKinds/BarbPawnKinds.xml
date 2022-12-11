@@ -14,6 +14,9 @@
 		<disallowedTraits>
 		  <li>Nudist</li>
 		</disallowedTraits>
+		<requiredWorkTags>
+		  <li>Violent</li>
+		</requiredWorkTags>
 		<!--
 		<backstoryFiltersOverride>
 		  <li>
