@@ -11,6 +11,9 @@
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
 		<minGenerationAge>25</minGenerationAge>
+		<disallowedTraits>
+		  <li>Nudist</li>
+		</disallowedTraits>
 		<!--
 		<backstoryFiltersOverride>
 		  <li>
