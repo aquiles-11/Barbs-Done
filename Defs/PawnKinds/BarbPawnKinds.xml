@@ -10,7 +10,6 @@
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
-		<minGenerationAge>25</minGenerationAge>
 		<disallowedTraits>
 		  <li>Nudist</li>
 		</disallowedTraits>
@@ -36,7 +35,7 @@
 		<invNutrition>0</invNutrition>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.2~1.1</gearHealthRange>
-		<apparelMoney>50~350</apparelMoney>
+		<apparelMoney>150~350</apparelMoney>
 		<weaponMoney>80~200</weaponMoney>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
@@ -147,6 +146,7 @@
 	<PawnKindDef ParentName="pphhyy_Barbarian_ThrallBase">
 		<defName>pphhyy_Barbarian_Thrall</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags>
 			<li>pphhyy_Barbarian_BarbThrallApparel</li>
@@ -170,6 +170,7 @@
 	<PawnKindDef ParentName="pphhyy_Barbarian_MarauderBase">
 		<defName>pphhyy_Barbarian_MarauderShield</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags>
 			<li>pphhyy_Barbarian_BarbThrallApparel</li>
@@ -196,6 +197,7 @@
     <PawnKindDef ParentName="pphhyy_Barbarian_MarauderBase">
 		<defName>pphhyy_Barbarian_Marauder</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags>
 			<li>pphhyy_Barbarian_BarbThrallApparel</li>
@@ -228,6 +230,7 @@
 	<PawnKindDef ParentName="pphhyy_Barbarian_WarriorBase">
 		<defName>pphhyy_Barbarian_WarriorShield</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags> 
 			<li>pphhyy_Barbarian_BarbChainApparel</li>
@@ -256,6 +259,7 @@
     <PawnKindDef ParentName="pphhyy_Barbarian_WarriorBase">
 		<defName>pphhyy_Barbarian_Warrior</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags>
 			<li>pphhyy_Barbarian_BarbChainApparel</li>
@@ -270,6 +274,7 @@
 	<PawnKindDef ParentName="pphhyy_Barbarian_ChosenBase">
 		<defName>pphhyy_Barbarian_ChosenShield</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags> 
 			<li>pphhyy_Barbarian_BarbChainApparel</li>
@@ -304,6 +309,7 @@
     <PawnKindDef ParentName="pphhyy_Barbarian_ChosenBase">
 		<defName>pphhyy_Barbarian_Chosen</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags>
 			<li>pphhyy_Barbarian_BarbChainApparel</li>
@@ -323,6 +329,7 @@
 	<PawnKindDef ParentName="pphhyy_Barbarian_WarlordBase">
 		<defName>pphhyy_Barbarian_WarlordFactionLeader</defName>
 		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
 		<defaultFactionType>pphhyy_Barbarian_NonPlayerBarbTribe</defaultFactionType>
 		<apparelTags>
             <li>pphhyy_Barbarian_BarbChainApparel</li>
