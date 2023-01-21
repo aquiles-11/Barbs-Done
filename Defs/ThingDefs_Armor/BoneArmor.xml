@@ -35,6 +35,7 @@
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
       <Insulation_Cold>10</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
+	  <MarketValue>280</MarketValue>
     </statBases>
     <!-- <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -116,7 +117,7 @@
         <li>Apparel_ArmorHelmetCataphract</li>
         <li>Apparel_ArmorHelmetRecon</li>
         <li>Apparel_PowerArmorHelmet</li> -->
-        <li>Skull</li>
+        <li>DankPyon_Bone</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -127,7 +128,7 @@
 
   <ThingDef ParentName="ArmorSmithableBaseBarb">
     <defName>pphhyy_Barbarian_BoneArmorII</defName>
-    <label>Bone Armor</label>
+    <label>Bone Armor II</label>
     <description>Bone Armor made from armor and skulls looted on the battlefield.</description>
     <!-- <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -159,6 +160,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
+	  <MarketValue>509</MarketValue>
     </statBases>
     <!-- <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -251,7 +253,7 @@
 
   <ThingDef ParentName="ArmorSmithableBaseBarb">
     <defName>pphhyy_Barbarian_BoneArmorIII</defName>
-    <label>Bone Armor</label>
+    <label>Bone Armor III</label>
     <description>Bone Armor made from armor and skulls looted on the battlefield.</description>
     <!-- <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -283,6 +285,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
+	  <MarketValue>651</MarketValue>
     </statBases>
     <!-- <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>

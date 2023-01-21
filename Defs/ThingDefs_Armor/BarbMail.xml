@@ -35,6 +35,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>15</EquipDelay>
+	  <MarketValue>509</MarketValue>
     </statBases>
     <!-- <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -161,6 +162,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>15</EquipDelay>
+	  <MarketValue>651</MarketValue>
     </statBases>
     <!-- <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -211,7 +213,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_Apparel_Light_Lamellar</li>
+            <!--li>DankPyon_Apparel_Light_Lamellar</li>
             <li>DankPyon_Apparel_Padded_Leather</li>
             <li>Dankpyon_Apparel_Gambeson</li>
             <li>DankPyon_Apparel_Hauberk</li>
@@ -219,7 +221,8 @@
             <li>DankPyon_Apparel_Heraldic_Hauberk1c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk2c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk3c</li>
-            <li>DankPyon_Apparel_Heraldic_Hauberk4c</li>
+            <li>DankPyon_Apparel_Heraldic_Hauberk4c</li-->
+			<li>pphhyy_Barbarian_Mail</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -235,7 +238,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-            <li>DankPyon_Apparel_Light_Lamellar</li>
+            <!--li>DankPyon_Apparel_Light_Lamellar</li>
             <li>DankPyon_Apparel_Padded_Leather</li>
             <li>Dankpyon_Apparel_Gambeson</li>
             <li>DankPyon_Apparel_Hauberk</li>
@@ -243,7 +246,8 @@
             <li>DankPyon_Apparel_Heraldic_Hauberk1c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk2c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk3c</li>
-            <li>DankPyon_Apparel_Heraldic_Hauberk4c</li>
+            <li>DankPyon_Apparel_Heraldic_Hauberk4c</li-->
+			<li>pphhyy_Barbarian_Mail</li>
             <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>

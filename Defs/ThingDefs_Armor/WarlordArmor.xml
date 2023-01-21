@@ -61,6 +61,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>15</EquipDelay>
+	  <MarketValue>794</MarketValue>
     </statBases>
     <!-- <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -148,7 +149,7 @@
 
   <ThingDef ParentName="ArmorSmithableBaseBarb">
     <defName>pphhyy_Barbarian_WarlordArmorII</defName>
-    <label>Warlord Armor</label>
+    <label>Warlord Armor II</label>
     <description>Warlord Armor made from armor and skulls looted on the battlefield.</description>
     <graphicData>
       <texPath>Armor/WarlordArmor/WarlordArmorII</texPath>
@@ -164,6 +165,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>15</EquipDelay>
+	  <MarketValue>977</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
@@ -192,7 +194,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeWarlordArmorII</defName>
-    <label>make Warlord Armor</label>
+    <label>make Warlord Armor II</label>
     <description>Make a Warlord Armor set made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Rusted Armor</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

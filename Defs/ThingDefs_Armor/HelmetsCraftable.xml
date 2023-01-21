@@ -107,7 +107,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeBoneHelmII</defName>
-    <label>make Bone Helm</label>
+    <label>make Bone Helm II</label>
     <description>Make a Bone Helm set made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Bone Helm</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

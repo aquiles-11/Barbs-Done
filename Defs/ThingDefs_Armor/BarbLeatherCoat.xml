@@ -19,6 +19,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
+	  <MarketValue>280</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
@@ -133,6 +134,7 @@
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
+	  <MarketValue>509</MarketValue>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
