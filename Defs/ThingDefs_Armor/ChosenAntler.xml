@@ -157,7 +157,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeChosenAntlerII</defName>
-    <label>make Chosen Antler helm II</label>
+    <label>make Chosen Antler Helm II</label>
     <description>Make a Chosen Antler helm made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Rusted Armor.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -244,7 +244,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeChosenAntlerIII</defName>
-    <label>make Chosen Antler III</label>
+    <label>make Chosen Antler Helm III</label>
     <description>Make a Chosen Antler made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Rusted Armor.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

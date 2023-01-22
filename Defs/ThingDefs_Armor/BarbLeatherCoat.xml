@@ -38,7 +38,6 @@
       <wornGraphicPath>Armor/BarbLeatherCoat/BarbLeatherCoatI</wornGraphicPath>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <tags>
         <li>pphhyy_Barbarian_BarbMarauderApparel</li>
@@ -153,7 +152,6 @@
       <wornGraphicPath>Armor/BarbLeatherCoat/BarbLeatherCoatII</wornGraphicPath>
       <layers>
       <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <tags>
         <li>pphhyy_Barbarian_BarbMarauderApparel</li>

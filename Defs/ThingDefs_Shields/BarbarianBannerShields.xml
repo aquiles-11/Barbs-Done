@@ -4,7 +4,7 @@
 <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_BarbBannerI</defName>
     <label>Barbarian Banner I</label>
-    <description>A Round shield looted from the battlefield.</description>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
       <texPath>Shields/BarbBannerI</texPath>
@@ -80,8 +80,8 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeBarbBannerI</defName>
-    <label>make Round shield</label>
-    <description>Make a Round shield looted from the battlefield.</description>
+    <label>make Barbarian Banner</label>
+    <description>The barbarian banner is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -134,7 +134,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_BarbBannerII</defName>
     <label>Barbarian Banner II</label>
-    <description>A Round shield looted from the battlefield.</description>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
       <texPath>Shields/BarbBannerII</texPath>
@@ -210,8 +210,8 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeBarbBannerII</defName>
-    <label>make Round shield</label>
-    <description>Make a Round shield looted from the battlefield.</description>
+    <label>make Barbarian Banner II</label>
+    <description>The Barbarian Banner II is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -264,7 +264,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_BarbBannerIII</defName>
     <label>Barbarian Banner III</label>
-    <description>A Round shield looted from the battlefield.</description>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
       <texPath>Shields/BarbBannerIII</texPath>
@@ -340,8 +340,8 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeBarbBannerIII</defName>
-    <label>make Round shield</label>
-    <description>Make a Round shield looted from the battlefield.</description>
+    <label>make Barbarian Banner III</label>
+    <description>The Barbarian Banner II is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -394,7 +394,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_BarbBannerIV</defName>
     <label>Barbarian Banner IV</label>
-    <description>A Round shield looted from the battlefield.</description>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
       <texPath>Shields/BarbBannerIV</texPath>
@@ -470,8 +470,8 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeBarbBannerIV</defName>
-    <label>make Round shield</label>
-    <description>Make a Round shield looted from the battlefield.</description>
+    <label>make Barbarian Banner IV</label>
+    <description>The Barbarian Banner IV is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

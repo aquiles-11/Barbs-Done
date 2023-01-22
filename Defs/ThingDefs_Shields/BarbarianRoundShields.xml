@@ -133,7 +133,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_RoundShieldII</defName>
-    <label>Barbarian Round Shield</label>
+    <label>Barbarian Round Shield II</label>
     <description>A Round shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
@@ -210,7 +210,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeRoundShieldII</defName>
-    <label>make Round shield</label>
+    <label>make Round shield II</label>
     <description>Make a Round shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -251,7 +251,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_RoundShieldIII</defName>
-    <label>Barbarian Round Shield</label>
+    <label>Barbarian Round Shield III</label>
     <description>A Round shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
@@ -328,7 +328,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeRoundShieldIII</defName>
-    <label>make Round shield</label>
+    <label>make Round shield III</label>
     <description>Make a Round shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

@@ -47,16 +47,38 @@
     <surfaceType>Item</surfaceType>
     <recipes>
        <li>pphhyy_Barbarian_MakeRustedSword</li>
+	   
        <li>pphhyy_Barbarian_MakeRustedAxe</li>
+	   
        <li>pphhyy_Barbarian_MakeRustedClaymore</li>
+	   
        <li>pphhyy_Barbarian_MakeRustedBattleAxe</li>
+	   
        <li>pphhyy_Barbarian_MakeRustedGlaive</li>
+	   
        <li>pphhyy_Barbarian_MakeRustedMace</li>
        <li>pphhyy_Barbarian_MakeRustedSkullMace</li>
        <li>pphhyy_Barbarian_MakeRustedGreatSkullMace</li>
-       <li>pphhyy_Barbarian_MakeRoundShield</li>
+	   
        <li>pphhyy_Barbarian_MakeRustedJavalin</li>
        <li>pphhyy_Barbarian_MakeRustedThrowingAxe</li>
+
+	   <li>pphhyy_Barbarian_MakeMetalShield</li>
+	   <li>pphhyy_Barbarian_MakeMetalShieldII</li>
+	   <li>pphhyy_Barbarian_MakeMetalShieldIII</li>
+	   
+	   <li>pphhyy_Barbarian_MakeBarbBannerI</li>
+	   <li>pphhyy_Barbarian_MakeBarbBannerII</li>
+	   <li>pphhyy_Barbarian_MakeBarbBannerIII</li>
+	   <li>pphhyy_Barbarian_MakeBarbBannerIV</li>
+	   
+	   <li>pphhyy_Barbarian_MakeRoundShield</li>
+	   <li>pphhyy_Barbarian_MakeRoundShieldII</li>
+	   <li>pphhyy_Barbarian_MakeRoundShieldIII</li>
+	   
+	   <li>pphhyy_Barbarian_MakeTallShield</li>
+	   <li>pphhyy_Barbarian_MakeTallShieldII</li>
+	   <li>pphhyy_Barbarian_MakeTallShieldIII</li>	   
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

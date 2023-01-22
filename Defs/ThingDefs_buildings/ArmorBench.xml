@@ -29,7 +29,7 @@
       <li>Stony</li>
       <li>Woody</li>
     </stuffCategories>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -46,36 +46,52 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <recipes>
-       <li>pphhyy_Barbarian_MakeWarlordHelm</li>
-       <li>pphhyy_Barbarian_MakeWarlordHelmII</li>
-       <li>pphhyy_Barbarian_MakeWarlordHelmIII</li>
-       <li>pphhyy_Barbarian_MakeWarlordArmor</li>
-       <li>pphhyy_Barbarian_MakeWarlordArmorII</li>
+	   
+       <li>pphhyy_Barbarian_MakeBarbLeatherCoat</li>
+       <li>pphhyy_Barbarian_MakeBarbLeatherCoatII</li>
+	   
        <li>pphhyy_Barbarian_MakeBoneArmor</li>
        <li>pphhyy_Barbarian_MakeBoneArmorII</li>
        <li>pphhyy_Barbarian_MakeBoneArmorIII</li>
-       <li>pphhyy_Barbarian_MakeChosenScale</li>
-       <li>pphhyy_Barbarian_MakeChosenScaleII</li>
-       <li>pphhyy_Barbarian_MakeChosenMail</li>
-       <li>pphhyy_Barbarian_MakeChosenMailII</li>
-       <li>pphhyy_Barbarian_MakeBearHeaddressII</li>
+	   
        <li>pphhyy_Barbarian_MakeMail</li>
        <li>pphhyy_Barbarian_MakeMailII</li>
+	   
        <li>pphhyy_Barbarian_MakeScale</li>
        <li>pphhyy_Barbarian_MakeScaleII</li>
-       <li>pphhyy_Barbarian_MakeBarbLeatherCoat</li>
-       <li>pphhyy_Barbarian_MakeBarbLeatherCoatII</li>
+	   
+       <li>pphhyy_Barbarian_MakeChosenScale</li>
+       <li>pphhyy_Barbarian_MakeChosenScaleII</li>
+	   
+       <li>pphhyy_Barbarian_MakeChosenMail</li>
+       <li>pphhyy_Barbarian_MakeChosenMailII</li>
+	   
+       <li>pphhyy_Barbarian_MakeWarlordHelm</li>
+       <li>pphhyy_Barbarian_MakeWarlordHelmII</li>
+       <li>pphhyy_Barbarian_MakeWarlordHelmIII</li>
+	   
+       <li>pphhyy_Barbarian_MakeWarlordArmor</li>
+       <li>pphhyy_Barbarian_MakeWarlordArmorII</li>
+	   
+	   <li>pphhyy_Barbarian_MakeBearHeaddressI</li>
+       <li>pphhyy_Barbarian_MakeBearHeaddressII</li>
+	   
+	   <li>pphhyy_Barbarian_MakeBoneHelmI</li>
+       <li>pphhyy_Barbarian_MakeBoneHelmII</li>
+       <li>pphhyy_Barbarian_MakeBoneHelmIII</li>
+	   
        <li>pphhyy_Barbarian_MakeChosenHorn</li>
        <li>pphhyy_Barbarian_MakeChosenHornII</li>
        <li>pphhyy_Barbarian_MakeChosenHornIII</li>
+	   
        <li>pphhyy_Barbarian_MakeChosenAntler</li>
        <li>pphhyy_Barbarian_MakeChosenAntlerII</li>
        <li>pphhyy_Barbarian_MakeChosenAntlerIII</li>
-       <li>pphhyy_Barbarian_MakeBoneHelmII</li>
-       <li>pphhyy_Barbarian_MakeBoneHelmIII</li>
+	   
        <li>pphhyy_Barbarian_MakeMetalHelm</li>
        <li>pphhyy_Barbarian_MakeMetalHelmII</li>
        <li>pphhyy_Barbarian_MakeMetalHelmIII</li>
+	   
        <li>pphhyy_Barbarian_MakeSpikedCap</li>
        <li>pphhyy_Barbarian_MakeSpikedCapII</li>
     </recipes>

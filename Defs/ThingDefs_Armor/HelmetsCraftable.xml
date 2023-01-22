@@ -61,6 +61,88 @@
     </apparel>
   </ThingDef>
 
+  <RecipeDef>
+    <defName>pphhyy_Barbarian_MakeBoneHelmI</defName>
+    <label>make Bone Helm I</label>
+    <description>Make a Bone Helm set made from armor and skulls looted on the battlefield.</description>
+    <jobString>Making Bone Helm</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_Headgear_PaddedNasalHelmet</li>
+            <li>DankPyon_Headgear_PaddedKettleHelmet</li>
+            <li>DankPyon_Headgear_PaddedFlatTopHelmet</li>
+            <li>DankPyon_Headgear_ChainCoif</li>
+            <li>DankPyon_Headgear_ChainCoifClosed</li>
+            <li>DankPyon_Headgear_ChainCoifFull</li>
+            <li>DankPyon_Headgear_ChainNasalHelmet</li>
+            <li>DankPyon_Headgear_ChainNasalRedHelmet</li>
+            <li>DankPyon_Headgear_ChainKettleHelmet</li>
+            <li>DankPyon_Headgear_Chain_FlatTopHelmet</li>
+            <li>DankPyon_Headgear_ClosedChain_FlatTopHelmet</li>
+            <li>DankPyon_Headgear_ChainClosedFlatTopHelmet</li>
+            <li>DankPyon_Headgear_ZweihanderHelm</li>
+            <li>DankPyon_Headgear_ZweihanderHelmAmboise</li>
+            <li>DankPyon_Headgear_ZweihanderHelmSoren</li>
+            <li>DankPyon_Headgear_ZweihanderHelmOswin</li>
+            <li>DankPyon_Headgear_ZweihanderHelmHesse</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_Bone</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_Bone</li>
+            <li>DankPyon_Headgear_PaddedNasalHelmet</li>
+            <li>DankPyon_Headgear_PaddedKettleHelmet</li>
+            <li>DankPyon_Headgear_PaddedFlatTopHelmet</li>
+            <li>DankPyon_Headgear_ChainCoif</li>
+            <li>DankPyon_Headgear_ChainCoifClosed</li>
+            <li>DankPyon_Headgear_ChainCoifFull</li>
+            <li>DankPyon_Headgear_ChainNasalHelmet</li>
+            <li>DankPyon_Headgear_ChainNasalRedHelmet</li>
+            <li>DankPyon_Headgear_ChainKettleHelmet</li>
+            <li>DankPyon_Headgear_Chain_FlatTopHelmet</li>
+            <li>DankPyon_Headgear_ClosedChain_FlatTopHelmet</li>
+            <li>DankPyon_Headgear_ChainClosedFlatTopHelmet</li>
+            <li>DankPyon_Headgear_ZweihanderHelm</li>
+            <li>DankPyon_Headgear_ZweihanderHelmAmboise</li>
+            <li>DankPyon_Headgear_ZweihanderHelmSoren</li>
+            <li>DankPyon_Headgear_ZweihanderHelmOswin</li>
+            <li>DankPyon_Headgear_ZweihanderHelmHesse</li>
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <pphhyy_Barbarian_BoneHelm>1</pphhyy_Barbarian_BoneHelm>
+    </products>
+  </RecipeDef>
+
   <ThingDef ParentName="HatMakeableBaseBarbs">
     <defName>pphhyy_Barbarian_BoneHelmII</defName>
     <label>Bone Helm II</label>
@@ -308,6 +390,67 @@
       </tags>
     </apparel>
   </ThingDef>
+
+  <RecipeDef>
+    <defName>pphhyy_Barbarian_MakeBearHeaddressI</defName>
+    <label>make Bear Headdress</label>
+    <description>Make a Bear Headdress made from leather and skulls looted on the battlefield.</description>
+    <jobString>Making leather Helm</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
+            <li>DankPyon_Headgear_SalletHelmet</li>
+            <li>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</li>
+            <li>DankPyon_Headgear_GreatHelm</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm1c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
+            <li>Apparel_ArmorHelmetCataphract</li>
+            <li>Apparel_ArmorHelmetRecon</li>
+            <li>Apparel_PowerArmorHelmet</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+            <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
+            <li>DankPyon_Headgear_SalletHelmet</li>
+            <li>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</li>
+            <li>DankPyon_Headgear_GreatHelm</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm1c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
+            <li>Apparel_ArmorHelmetCataphract</li>
+            <li>Apparel_ArmorHelmetRecon</li>
+            <li>Apparel_PowerArmorHelmet</li>
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <pphhyy_Barbarian_BearHeaddress>1</pphhyy_Barbarian_BearHeaddress>
+    </products>
+  </RecipeDef>
 
   <ThingDef ParentName="HatMakeableBaseBarbs">
     <defName>pphhyy_Barbarian_BearHeaddressII</defName>

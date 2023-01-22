@@ -133,7 +133,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_TallShieldII</defName>
-    <label>Barbarian Tall Shield</label>
+    <label>Barbarian Tall Shield II</label>
     <description>A Tall shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
@@ -210,7 +210,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeTallShieldII</defName>
-    <label>make Tall shield</label>
+    <label>make Tall shield II</label>
     <description>Make a Tall shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -251,7 +251,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
     <defName>pphhyy_Barbarian_TallShieldIII</defName>
-    <label>Barbarian Tall Shield</label>
+    <label>Barbarian Tall Shield III</label>
     <description>A Tall shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
@@ -328,7 +328,7 @@
 
   <RecipeDef>
     <defName>pphhyy_Barbarian_MakeTallShieldIII</defName>
-    <label>make Tall shield</label>
+    <label>make Tall shield III</label>
     <description>Make a Tall shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
