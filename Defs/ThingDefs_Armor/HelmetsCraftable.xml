@@ -77,26 +77,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_Headgear_PaddedNasalHelmet</li>
-            <li>DankPyon_Headgear_PaddedKettleHelmet</li>
-            <li>DankPyon_Headgear_PaddedFlatTopHelmet</li>
-            <li>DankPyon_Headgear_ChainCoif</li>
-            <li>DankPyon_Headgear_ChainCoifClosed</li>
-            <li>DankPyon_Headgear_ChainCoifFull</li>
-            <li>DankPyon_Headgear_ChainNasalHelmet</li>
-            <li>DankPyon_Headgear_ChainNasalRedHelmet</li>
-            <li>DankPyon_Headgear_ChainKettleHelmet</li>
-            <li>DankPyon_Headgear_Chain_FlatTopHelmet</li>
-            <li>DankPyon_Headgear_ClosedChain_FlatTopHelmet</li>
-            <li>DankPyon_Headgear_ChainClosedFlatTopHelmet</li>
-            <li>DankPyon_Headgear_ZweihanderHelm</li>
-            <li>DankPyon_Headgear_ZweihanderHelmAmboise</li>
-            <li>DankPyon_Headgear_ZweihanderHelmSoren</li>
-            <li>DankPyon_Headgear_ZweihanderHelmOswin</li>
-            <li>DankPyon_Headgear_ZweihanderHelmHesse</li>
+            <li>DankPyon_IronIngot</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>10</count>
       </li>
 	  <li>
         <filter>
@@ -117,24 +101,8 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
+	    <li>DankPyon_IronIngot</li>
         <li>DankPyon_Bone</li>
-            <li>DankPyon_Headgear_PaddedNasalHelmet</li>
-            <li>DankPyon_Headgear_PaddedKettleHelmet</li>
-            <li>DankPyon_Headgear_PaddedFlatTopHelmet</li>
-            <li>DankPyon_Headgear_ChainCoif</li>
-            <li>DankPyon_Headgear_ChainCoifClosed</li>
-            <li>DankPyon_Headgear_ChainCoifFull</li>
-            <li>DankPyon_Headgear_ChainNasalHelmet</li>
-            <li>DankPyon_Headgear_ChainNasalRedHelmet</li>
-            <li>DankPyon_Headgear_ChainKettleHelmet</li>
-            <li>DankPyon_Headgear_Chain_FlatTopHelmet</li>
-            <li>DankPyon_Headgear_ClosedChain_FlatTopHelmet</li>
-            <li>DankPyon_Headgear_ChainClosedFlatTopHelmet</li>
-            <li>DankPyon_Headgear_ZweihanderHelm</li>
-            <li>DankPyon_Headgear_ZweihanderHelmAmboise</li>
-            <li>DankPyon_Headgear_ZweihanderHelmSoren</li>
-            <li>DankPyon_Headgear_ZweihanderHelmOswin</li>
-            <li>DankPyon_Headgear_ZweihanderHelmHesse</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
