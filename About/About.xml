@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Barbarians MO Submod</name>
+	<name>Medieval Overhaul: Barbarians</name>
 	<packageId>pphhyy.BarbariansMOSubmod</packageId>
 	<author>pphhyy</author>
 	<supportedVersions>
     	<li>1.4</li>
+    	<li>1.5</li>
 	</supportedVersions>
 	<description>Barbarians MO Submod.
 	</description>
