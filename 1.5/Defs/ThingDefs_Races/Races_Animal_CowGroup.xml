@@ -121,18 +121,18 @@
     <wildGroupSize>3~6</wildGroupSize>
     <alternateGraphicChance>0.8</alternateGraphicChance>
     <alternateGraphics>
-      <li><texPath>Things/Pawn/Animal/Horse/Horse1</texPath></li>
-      <li><texPath>Things/Pawn/Animal/Horse/Horse2</texPath></li>
-      <li><texPath>Things/Pawn/Animal/Horse/Horse3</texPath></li>
-      <li><texPath>Things/Pawn/Animal/Horse/Horse4</texPath></li>
-      <li><texPath>Things/Pawn/Animal/Horse/Horse5</texPath></li>
-      <li><texPath>Things/Pawn/Animal/Horse/Horse6</texPath></li>
+      <li><texPath>Animals/NorthernHorse1</texPath></li>
+      <li><texPath>Animals/NorthernHorse2</texPath></li>
+      <li><texPath>Animals/NorthernHorse3</texPath></li>
+      <li><texPath>Animals/NorthernHorse4</texPath></li>
+      <li><texPath>Animals/NorthernHorse5</texPath></li>
+      <li><texPath>Animals/NorthernHorse6</texPath></li>
     </alternateGraphics>
     <lifeStages>
       <li>
         <label>foal</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Horse/Horse</texPath>
+          <texPath>Animals/NorthernHorse</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -146,7 +146,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Horse/Horse</texPath>
+          <texPath>Animals/NorthernHorse</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -160,7 +160,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Horse/Horse</texPath>
+          <texPath>Animals/NorthernHorse</texPath>
           <drawSize>2.6</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
