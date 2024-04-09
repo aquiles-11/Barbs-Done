@@ -53,7 +53,6 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-      <soundEating>Herbivore_Eat</soundEating>
       <headPosPerRotation>
         <li>(0.0, 0, 0.33)</li>
         <li>(0.31, 0, 0.21)</li>
@@ -78,7 +77,6 @@
       </li>
       <li>
         <label>left hoof</label>
-        <labelNoLocation>hoof</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
@@ -89,7 +87,6 @@
       </li>
       <li>
         <label>right hoof</label>
-        <labelNoLocation>hoof</labelNoLocation>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
