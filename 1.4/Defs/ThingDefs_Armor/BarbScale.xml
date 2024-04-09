@@ -101,10 +101,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -118,7 +118,8 @@
             <li>DankPyon_Apparel_Heraldic_Hauberk2c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk3c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk4c</li>
-            <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -226,15 +227,15 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>100</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Apparel_PowerArmor</li>
+        <li>pphhyy_Barbarian_Scale</li>
         <!-- <li>DankPyon_Headgear_HeraldicGreatHelm1c</li>
         <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
         <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
@@ -242,7 +243,8 @@
         <li>Apparel_ArmorHelmetCataphract</li>
         <li>Apparel_ArmorHelmetRecon</li>
         <li>Apparel_PowerArmorHelmet</li> -->
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>

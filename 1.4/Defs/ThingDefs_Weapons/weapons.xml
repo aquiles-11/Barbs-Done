@@ -417,7 +417,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Skull</li>
+                        <li MayRequire="ludeon.rimworld.ideology">Skull</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -427,7 +427,7 @@
             <thingDefs>
                 <li>MeleeWeapon_Gladius</li>
                 <li>MeleeWeapon_LongSword</li>
-                <li>Skull</li>
+                <li MayRequire="ludeon.rimworld.ideology">Skull</li>
             </thingDefs>
     </fixedIngredientFilter> -->
     <statBases>
@@ -511,10 +511,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -525,7 +525,8 @@
         <li>DankPyon_MeleeWeapon_ArmingSword</li>
         <li>DankPyon_MeleeWeapon_FencingSword</li>
         <li>DankPyon_MeleeWeapon_NobleSword</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -623,10 +624,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -634,7 +635,8 @@
         <li>DankPyon_MeleeWeapon_Longsword</li>
         <li>MeleeWeapon_LongSword</li>
         <li>DankPyon_MeleeWeapon_Greatsword</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -731,10 +733,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -742,7 +744,8 @@
         <li>DankPyon_MeleeWeapon_Hatchet</li>
         <li>DankPyon_MeleeWeapon_Handaxe</li>
         <li>DankPyon_MeleeWeapon_FightingAxe</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -840,10 +843,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -852,7 +855,8 @@
         <li>DankPyon_MeleeWeapon_Bardiche</li>
         <li>DankPyon_MeleeWeapon_Greataxe</li>
         <li>DankPyon_MeleeWeapon_Longaxe</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -957,10 +961,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -976,7 +980,8 @@
         <li>DankPyon_MeleeWeapon_MilitiaSpear</li>
         <li>DankPyon_MeleeWeapon_BoarSpear</li>
         <li>DankPyon_MeleeWeapon_FightingSpear</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -1079,10 +1084,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -1096,7 +1101,8 @@
         <li>DankPyon_MeleeWeapon_Pickaxe</li>
         <li>DankPyon_MeleeWeapon_MilitaryPick</li>
         <li>DankPyon_MeleeWeapon_Warhammer</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -1199,10 +1205,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -1216,7 +1222,8 @@
         <li>DankPyon_MeleeWeapon_Pickaxe</li>
         <li>DankPyon_MeleeWeapon_MilitaryPick</li>
         <li>DankPyon_MeleeWeapon_Warhammer</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -1313,13 +1320,13 @@
         </filter>
         <count>1</count>
       </li>
-	  <li MayRequire="Ludeon.RimWorld.Ideology">
+	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -1330,7 +1337,8 @@
         <li>DankPyon_MeleeWeapon_Goedendag</li>
         <li>DankPyon_MeleeWeapon_TwoHandedFlangedMace</li>
         <li>DankPyon_MeleeWeapon_TwoHandedMace</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>

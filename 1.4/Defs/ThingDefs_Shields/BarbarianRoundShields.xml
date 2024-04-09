@@ -108,10 +108,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -123,7 +123,8 @@
         <li>DankPyon_ShieldHeater_Soren</li>
         <li>DankPyon_ShieldHeater_Oswin</li>
         <li>DankPyon_ShieldHeater_Hesse</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -232,16 +233,17 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>100</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>pphhyy_Barbarian_RoundShield</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -350,16 +352,17 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>150</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>pphhyy_Barbarian_RoundShieldII</li>
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>

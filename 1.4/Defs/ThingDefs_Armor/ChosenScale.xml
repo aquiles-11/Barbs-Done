@@ -91,7 +91,7 @@
             <li>DankPyon_Apparel_Brigandine</li>
             <li>DankPyon_Apparel_Breast_Plate</li>
             <li>DankPyon_Apparel_FullPlate</li>
-            <li>Apparel_ArmorCataphract</li>
+            <!-- <li>Apparel_ArmorCataphract</li> -->
             <li>Apparel_ArmorRecon</li>
             <li>Apparel_PlateArmor</li>
           </thingDefs>
@@ -101,10 +101,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -115,10 +115,11 @@
             <li>DankPyon_Apparel_Brigandine</li>
             <li>DankPyon_Apparel_Breast_Plate</li>
             <li>DankPyon_Apparel_FullPlate</li>
-            <li>Apparel_ArmorCataphract</li>
+            <!-- <li>Apparel_ArmorCataphract</li> -->
             <li>Apparel_ArmorRecon</li>
             <li>Apparel_PlateArmor</li>
-            <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -226,10 +227,10 @@
 	  <li>
         <filter>
           <thingDefs>
-            <li>Skull</li>
+            <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>100</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -242,7 +243,8 @@
         <li>Apparel_ArmorHelmetCataphract</li>
         <li>Apparel_ArmorHelmetRecon</li>
         <li>Apparel_PowerArmorHelmet</li> -->
-        <li>Skull</li>
+			<li>DankPyon_Bone</li>
+            <!--li MayRequire="ludeon.rimworld.ideology">Skull</li-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>
