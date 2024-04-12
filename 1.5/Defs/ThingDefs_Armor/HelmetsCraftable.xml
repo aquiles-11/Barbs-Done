@@ -40,7 +40,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <tags>
@@ -134,7 +134,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <tags>
@@ -228,7 +228,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -338,7 +338,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -383,7 +383,7 @@
             <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
-            <li>Apparel_ArmorHelmetCataphract</li>
+            <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
             <li>Apparel_ArmorHelmetRecon</li>
             <li>Apparel_PowerArmorHelmet</li>
           </thingDefs>
@@ -409,7 +409,7 @@
             <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
-            <li>Apparel_ArmorHelmetCataphract</li>
+            <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
             <li>Apparel_ArmorHelmetRecon</li>
             <li>Apparel_PowerArmorHelmet</li>
         <li>Skull</li>
@@ -443,7 +443,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -544,7 +544,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>

@@ -48,7 +48,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -190,7 +190,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -300,7 +300,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -388,7 +388,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -507,7 +507,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
-      <SuppressionPower>0.5</SuppressionPower>
+      <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>

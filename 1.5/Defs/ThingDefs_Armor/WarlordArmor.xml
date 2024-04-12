@@ -114,7 +114,7 @@
             <li>Apparel_PowerArmor</li>
             <li>DankPyon_Apparel_FullPlate</li>
             <li>DankPyon_Apparel_FullPlateGilded</li>
-            <li>Apparel_ArmorCataphract</li>
+            <!-- <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorCataphract</li> -->
             <li>Apparel_ArmorRecon</li>
             <li>Apparel_PlateArmor</li>
           </thingDefs>
@@ -135,7 +135,7 @@
             <li>Apparel_PowerArmor</li>
             <li>DankPyon_Apparel_FullPlate</li>
             <li>DankPyon_Apparel_FullPlateGilded</li>
-            <li>Apparel_ArmorCataphract</li>
+            <!-- <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorCataphract</li> -->
             <li>Apparel_ArmorRecon</li>
             <li>Apparel_PlateArmor</li>
             <li>Skull</li>
@@ -213,7 +213,7 @@
             <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
-            <li>Apparel_ArmorHelmetCataphract</li>
+            <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
             <li>Apparel_ArmorHelmetRecon</li>
             <li>Apparel_PowerArmorHelmet</li> -->
           </thingDefs>
@@ -236,7 +236,7 @@
         <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
         <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
         <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
-        <li>Apparel_ArmorHelmetCataphract</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
         <li>Apparel_ArmorHelmetRecon</li>
         <li>Apparel_PowerArmorHelmet</li> -->
         <li>Skull</li>

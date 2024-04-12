@@ -67,7 +67,7 @@
             <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
-            <li>Apparel_ArmorHelmetCataphract</li>
+            <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
             <li>Apparel_ArmorHelmetRecon</li>
             <li>Apparel_PowerArmorHelmet</li> -->
           </thingDefs>
@@ -90,7 +90,7 @@
         <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
         <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
         <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
-        <li>Apparel_ArmorHelmetCataphract</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
         <li>Apparel_ArmorHelmetRecon</li>
         <li>Apparel_PowerArmorHelmet</li> -->
         <li>Skull</li>
