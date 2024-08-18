@@ -2,33 +2,12 @@
 <Defs>
 
 <ThingDef Name="ApparelMakeableBaseBarbs" ParentName="ApparelBase" Abstract="True">
-    <!-- <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Tailor</effectWorking>
-      <soundWorking>Recipe_Tailor</soundWorking>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <defaultIngredientFilter>
-        <categories>
-          <li>Root</li>
-        </categories>
-        <disallowedThingDefs>
-          <li>Gold</li>
-          <li>Silver</li>
-          <li>Plasteel</li>
-          <li>Jade</li>
-          <li>Uranium</li>
-        </disallowedThingDefs>
-      </defaultIngredientFilter>
-    </recipeMaker> -->
+
   </ThingDef>
 
   <ThingDef Name="HatMakeableBaseBarbs" ParentName="ApparelMakeableBaseBarbs" Abstract="True">
     <smeltable>false</smeltable>
+	<tradeability>None</tradeability>
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>
@@ -38,36 +17,15 @@
     <defName>pphhyy_Barbarians_WarlordHelm</defName>
     <label>Warlord Helm</label>
     <description>Warlord helm made from armor and skulls looted on the battlefield.</description>
-    <!-- <recipeMaker>
-      <researchPrerequisite>Brachyura_MedievalArmor</researchPrerequisite>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-        <li>CraftingSpot</li>
-        <li>Brachyura_ArmorBench</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>1</Crafting>
-      </skillRequirements>
-      <factionPrerequisiteTags>
-        <li>Tribal</li>
-      </factionPrerequisiteTags>
-    </recipeMaker> -->
     <graphicData>
       <texPath>Armor/Warlord/WarlordHelm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
     <uiIconScale>1.15</uiIconScale>
-    <!-- <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories> -->
     <techLevel>Neolithic</techLevel>
-    <!-- <costStuffCount>60</costStuffCount> -->
-    <!-- <costList>
-      <Skull>1</Skull>
-    </costList> -->
     <statBases>
+      <MarketValue>238</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.5</Mass>
@@ -170,6 +128,7 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>256</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.5</Mass>
@@ -257,6 +216,7 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>289</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.5</Mass>

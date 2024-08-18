@@ -13,6 +13,7 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>206</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.5</Mass>
@@ -121,6 +122,7 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>230</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.5</Mass>
@@ -205,6 +207,7 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>256</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.5</Mass>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBaseBarbs">
     <defName>pphhyy_Barbarian_BoneHelm</defName>
     <label>Bone Helm</label>
     <description>Bone Helm made from Bones.</description>
@@ -29,9 +29,10 @@
         <Steel>40</Steel>
     </costList>
     <statBases>
+      <MarketValue>157</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
-      <Mass>15</Mass>
+      <Mass>1.5</Mass>
       <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
@@ -123,9 +124,10 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>217</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
-      <Mass>15</Mass>
+      <Mass>1.5</Mass>
       <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
@@ -217,9 +219,10 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>266</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
-      <Mass>15</Mass>
+      <Mass>1.5</Mass>
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
@@ -328,6 +331,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
+      <MarketValue>172</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>1800</WorkToMake>
       <Mass>0.5</Mass>
@@ -432,6 +436,7 @@
     <uiIconScale>1.15</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <statBases>
+      <MarketValue>217</MarketValue>
       <WorkToMake>1000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>15</Mass>
@@ -534,6 +539,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
+      <MarketValue>172</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>1800</WorkToMake>
       <Mass>0.5</Mass>

@@ -35,7 +35,7 @@
 		<invNutrition>0</invNutrition>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.2~1.1</gearHealthRange>
-		<apparelMoney>150~350</apparelMoney>
+		<apparelMoney>350~550</apparelMoney>
 		<weaponMoney>80~200</weaponMoney>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
@@ -48,7 +48,7 @@
 		<combatPower>80</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>180~350</apparelMoney>
+		<apparelMoney>450~650</apparelMoney>
 		<weaponMoney>80~2000</weaponMoney>
 		<!-- <disallowedTraits>
 			<li>Brawler</li>
@@ -74,7 +74,7 @@
 		<label>Warrior</label>
 		<combatPower>120</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelMoney>200~550</apparelMoney>
+		<apparelMoney>450~650</apparelMoney>
 		<!-- <apparelRequired>
 			<li>Mashed_Lynian_Apparel_PurrserkerHelmet</li>
 		</apparelRequired> -->
@@ -89,7 +89,7 @@
 		<label>Chosen</label>
 		<combatPower>120</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelMoney>200~550</apparelMoney>
+		<apparelMoney>450~650</apparelMoney>
 		<!-- <apparelRequired>
 			<li>Mashed_Lynian_Apparel_PurrserkerHelmet</li>
 		</apparelRequired> -->

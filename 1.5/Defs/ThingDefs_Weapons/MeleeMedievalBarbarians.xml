@@ -12,17 +12,6 @@
       <li>Melee</li>
     </weaponClasses>
     <relicChance>1</relicChance>
-    <!-- <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-    </recipeMaker> -->
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
@@ -32,18 +21,6 @@
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
-    <!-- <recipeMaker>
-      <defaultIngredientFilter>
-        <categories>
-          <li>Root</li>
-        </categories>
-        <disallowedThingDefs>
-          <li>Silver</li>
-          <li>Gold</li>
-          <li>WoodLog</li>
-        </disallowedThingDefs>
-      </defaultIngredientFilter>
-    </recipeMaker> -->
   </ThingDef>
 
   <ThingDef Name="BaseMeleeWeapon_SharpBarb_Quality" Abstract="True" ParentName="BaseMeleeWeapon_SharpBarb">
@@ -63,20 +40,11 @@
     <weaponClasses>
       <li>MeleeBlunt</li>
     </weaponClasses>
-    <!-- <recipeMaker>
-      <defaultIngredientFilter>
-        <categories>
-          <li>Root</li>
-        </categories>
-        <disallowedThingDefs>
-          <li>Silver</li>
-          <li>Gold</li>
-        </disallowedThingDefs>
-      </defaultIngredientFilter>
-    </recipeMaker> -->
   </ThingDef>
 
   <ThingDef Name="BaseMeleeWeapon_BluntBarb_Quality" Abstract="True" ParentName="BaseMeleeWeapon_Sharp">
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
     <weaponClasses Inherit="False">
       <li>MeleeBlunt</li>
     </weaponClasses>
@@ -144,20 +112,6 @@
         <li>pphhyy_Barbarians_Building_WeaponBench</li>
       </recipeUsers>
     </recipeMaker>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
     <modExtensions>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
@@ -217,25 +171,6 @@
         <li>pphhyy_Barbarians_Building_WeaponBench</li>
       </recipeUsers>
     </recipeMaker>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps>
-    <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>true</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_BluntBarb_Quality">
@@ -290,25 +225,6 @@
         <li>pphhyy_Barbarians_Building_WeaponBench</li>
       </recipeUsers>
     </recipeMaker>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps>
-    <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>false</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_BluntBarb_Quality">
@@ -364,25 +280,6 @@
         <li>pphhyy_Barbarians_Building_WeaponBench</li>
       </recipeUsers>
     </recipeMaker>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps>
-    <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>true</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_SharpBarb_Quality">
@@ -401,35 +298,6 @@
     <weaponClasses>
       <li>Neolithic</li>
     </weaponClasses>
-    <!-- <costList>
-      <Skull>1</Skull>
-    </costList> -->
-    <!-- <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>MeleeWeapon_Gladius</li>
-                        <li>MeleeWeapon_LongSword</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Skull</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-    </ingredients>
-    <fixedIngredientFilter>
-            <thingDefs>
-                <li>MeleeWeapon_Gladius</li>
-                <li>MeleeWeapon_LongSword</li>
-                <li>Skull</li>
-            </thingDefs>
-    </fixedIngredientFilter> -->
     <statBases>
       <WorkToMake>1000</WorkToMake>
       <Mass>1</Mass>
@@ -455,26 +323,6 @@
         <armorPenetration>0.2</armorPenetration>
       </li>
     </tools>
-    <!-- <recipeMaker>
-    <researchPrerequisite>pphhyy_Barbarians_Research</researchPrerequisite>
-      <recipeUsers>
-        <li>pphhyy_Barbarians_Building_WeaponBench</li>
-      </recipeUsers>
-    </recipeMaker> -->
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
     <modExtensions>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
@@ -575,25 +423,6 @@
         <armorPenetration>0.4</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
-    <!--modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>true</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <RecipeDef>
@@ -683,20 +512,6 @@
         <armorPenetration>0.3</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
     <modExtensions>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
@@ -791,25 +606,6 @@
         <armorPenetration>0.4</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
-    <!--modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>true</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <RecipeDef>
@@ -901,25 +697,6 @@
         <armorPenetration>0.3</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
-    <!--modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>false</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <RecipeDef>
@@ -1025,20 +802,6 @@
         <armorPenetration>0.4</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
     <modExtensions>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
@@ -1145,20 +908,6 @@
         <armorPenetration>0.4</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>  
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps-->
     <modExtensions>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
@@ -1265,25 +1014,6 @@
         <armorPenetration>0.4</armorPenetration>
       </li>
     </tools>
-    <!--comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <verticalFlipNorth>false</verticalFlipNorth>
-        <angleAdjustmentNorth>-160</angleAdjustmentNorth>
-        <angleAdjustmentEast></angleAdjustmentEast>
-        <angleAdjustmentWest></angleAdjustmentWest>
-        <angleAdjustmentSouth></angleAdjustmentSouth>
-
-        <northOffset>(0.0,-1,0.1)</northOffset>
-        <southOffset>(-0.0,0,0.0)</southOffset>
-        <westOffset>(0.0,0,0.0)</westOffset>
-        <eastOffset>(-0.0,0,0.0)</eastOffset>
-      </li>
-    </comps>
-    <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-        <usableWithShields>false</usableWithShields>
-      </li>
-    </modExtensions-->
   </ThingDef>
 
   <RecipeDef>
