@@ -238,13 +238,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_Shield</li>
-            <li>DankPyon_ShieldKite</li>
-            <li>DankPyon_ShieldHeater</li>
-            <li>DankPyon_ShieldHeater_Amboise</li>
-            <li>DankPyon_ShieldHeater_Soren</li>
-            <li>DankPyon_ShieldHeater_Oswin</li>
-            <li>DankPyon_ShieldHeater_Hesse</li>
+            <li>pphhyy_Barbarian_BarbBannerI</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -260,13 +254,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_Shield</li>
-        <li>DankPyon_ShieldKite</li>
-        <li>DankPyon_ShieldHeater</li>
-        <li>DankPyon_ShieldHeater_Amboise</li>
-        <li>DankPyon_ShieldHeater_Soren</li>
-        <li>DankPyon_ShieldHeater_Oswin</li>
-        <li>DankPyon_ShieldHeater_Hesse</li>
+        <li>pphhyy_Barbarian_BarbBannerI</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -371,13 +359,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_Shield</li>
-            <li>DankPyon_ShieldKite</li>
-            <li>DankPyon_ShieldHeater</li>
-            <li>DankPyon_ShieldHeater_Amboise</li>
-            <li>DankPyon_ShieldHeater_Soren</li>
-            <li>DankPyon_ShieldHeater_Oswin</li>
-            <li>DankPyon_ShieldHeater_Hesse</li>
+            <li>pphhyy_Barbarian_BarbBannerII</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -393,13 +375,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_Shield</li>
-        <li>DankPyon_ShieldKite</li>
-        <li>DankPyon_ShieldHeater</li>
-        <li>DankPyon_ShieldHeater_Amboise</li>
-        <li>DankPyon_ShieldHeater_Soren</li>
-        <li>DankPyon_ShieldHeater_Oswin</li>
-        <li>DankPyon_ShieldHeater_Hesse</li>
+        <li>pphhyy_Barbarian_BarbBannerII</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -504,13 +480,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_Shield</li>
-            <li>DankPyon_ShieldKite</li>
-            <li>DankPyon_ShieldHeater</li>
-            <li>DankPyon_ShieldHeater_Amboise</li>
-            <li>DankPyon_ShieldHeater_Soren</li>
-            <li>DankPyon_ShieldHeater_Oswin</li>
-            <li>DankPyon_ShieldHeater_Hesse</li>
+            <li>pphhyy_Barbarian_BarbBannerIII</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -526,13 +496,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_Shield</li>
-        <li>DankPyon_ShieldKite</li>
-        <li>DankPyon_ShieldHeater</li>
-        <li>DankPyon_ShieldHeater_Amboise</li>
-        <li>DankPyon_ShieldHeater_Soren</li>
-        <li>DankPyon_ShieldHeater_Oswin</li>
-        <li>DankPyon_ShieldHeater_Hesse</li>
+        <li>pphhyy_Barbarian_BarbBannerIII</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
