@@ -19,6 +19,10 @@
     <equippedStatOffsets>
       <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
       <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.396</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.198</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.264</ArmorRating_Heat>
     </equippedStatOffsets>
     <weaponTags>
       <li>pphhyy_Barbarian_BarbTallShield1</li>
@@ -151,6 +155,10 @@
     <equippedStatOffsets>
       <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
       <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.455</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.228</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.304</ArmorRating_Heat>
     </equippedStatOffsets>
     <weaponTags>
       <li>pphhyy_Barbarian_BarbTallShield2</li>
@@ -271,6 +279,10 @@
     <equippedStatOffsets>
       <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
       <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.523</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.262</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.35</ArmorRating_Heat>
     </equippedStatOffsets>
     <weaponTags>
       <li>pphhyy_Barbarian_BarbTallShield3</li>
