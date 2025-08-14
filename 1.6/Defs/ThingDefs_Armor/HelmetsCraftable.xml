@@ -44,7 +44,7 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
-    
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <tags>
         <li>pphhyy_Barbarian_BarbMarauderApparel</li>
       </tags>
