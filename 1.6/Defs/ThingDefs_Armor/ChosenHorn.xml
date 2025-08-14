@@ -30,6 +30,7 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <useWornGraphicMask>true</useWornGraphicMask>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
@@ -139,6 +140,7 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <useWornGraphicMask>true</useWornGraphicMask>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
@@ -227,6 +229,7 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <useWornGraphicMask>true</useWornGraphicMask>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>

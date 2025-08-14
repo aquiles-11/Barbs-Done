@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="pphhyy_BaseShield">
+<ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_TallShield</defName>
     <label>Barbarian Tall Shield</label>
     <description>A Tall shield looted from the battlefield.</description>
@@ -28,7 +28,7 @@
       <li>pphhyy_Barbarian_BarbTallShield1</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>pphhyy_Barbarian_BarbTallShield1</li>
 			</shieldTags>
@@ -137,7 +137,7 @@
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_TallShieldII</defName>
     <label>Barbarian Tall Shield II</label>
     <description>A Tall shield looted from the battlefield.</description>
@@ -164,7 +164,7 @@
       <li>pphhyy_Barbarian_BarbTallShield2</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>pphhyy_Barbarian_BarbTallShield2</li>
 			</shieldTags>
@@ -261,7 +261,7 @@
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_TallShieldIII</defName>
     <label>Barbarian Tall Shield III</label>
     <description>A Tall shield looted from the battlefield.</description>
@@ -288,7 +288,7 @@
       <li>pphhyy_Barbarian_BarbTallShield3</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>pphhyy_Barbarian_BarbTallShield3</li>
 			</shieldTags>

@@ -113,7 +113,7 @@
       </recipeUsers>
     </recipeMaker>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -324,7 +324,7 @@
       </li>
     </tools>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -513,7 +513,7 @@
       </li>
     </tools>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -803,7 +803,7 @@
       </li>
     </tools>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -909,7 +909,7 @@
       </li>
     </tools>
     <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>

@@ -2,15 +2,15 @@
 <Defs>
 
   <ThingDef ParentName="BenchBase">
-    <defName>pphhyy_Barbarians_Building_WeaponBench</defName>
-    <label>Weapon Bench</label>
-    <description>Barb Weapon Bench to turn looted weapons into proper weapons.</description>
+    <defName>pphhyy_Barbarians_Building_ArmorBench</defName>
+    <label>Armor Bench</label>
+    <description>Barb Armor Bench to turn looted Armor into proper Armor.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Building/WeaponBench/Barbarians_WeaponBench</texPath>
+      <texPath>Building/ArmorBench/Barbarians_ArmorBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawRotated>false</drawRotated>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(3,3)</drawSize>
       <shaderType>CutoutComplex</shaderType>
       <!-- <shadowData>
         <volume>(0.52, 0.53, 0.09)</volume>
@@ -29,7 +29,7 @@
       <li>Stony</li>
       <li>Woody</li>
     </stuffCategories>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -46,39 +46,54 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <recipes>
-       <li>pphhyy_Barbarian_MakeRustedSword</li>
 	   
-       <li>pphhyy_Barbarian_MakeRustedAxe</li>
+       <li>pphhyy_Barbarian_MakeBarbLeatherCoat</li>
+       <li>pphhyy_Barbarian_MakeBarbLeatherCoatII</li>
 	   
-       <li>pphhyy_Barbarian_MakeRustedClaymore</li>
+       <li>pphhyy_Barbarian_MakeBoneArmor</li>
+       <li>pphhyy_Barbarian_MakeBoneArmorII</li>
+       <li>pphhyy_Barbarian_MakeBoneArmorIII</li>
 	   
-       <li>pphhyy_Barbarian_MakeRustedBattleAxe</li>
+       <li>pphhyy_Barbarian_MakeMail</li>
+       <li>pphhyy_Barbarian_MakeMailII</li>
 	   
-       <li>pphhyy_Barbarian_MakeRustedGlaive</li>
+       <li>pphhyy_Barbarian_MakeScale</li>
+       <li>pphhyy_Barbarian_MakeScaleII</li>
 	   
-       <li>pphhyy_Barbarian_MakeRustedMace</li>
-       <li>pphhyy_Barbarian_MakeRustedSkullMace</li>
-       <li>pphhyy_Barbarian_MakeRustedGreatSkullMace</li>
+       <li>pphhyy_Barbarian_MakeChosenScale</li>
+       <li>pphhyy_Barbarian_MakeChosenScaleII</li>
 	   
-       <li>pphhyy_Barbarian_MakeRustedJavalin</li>
-       <li>pphhyy_Barbarian_MakeRustedThrowingAxe</li>
-
-<!--	   <li>pphhyy_Barbarian_MakeMetalShield</li>
-	   <li>pphhyy_Barbarian_MakeMetalShieldII</li>
-	   <li>pphhyy_Barbarian_MakeMetalShieldIII</li>
+       <li>pphhyy_Barbarian_MakeChosenMail</li>
+       <li>pphhyy_Barbarian_MakeChosenMailII</li>
 	   
-	   <li>pphhyy_Barbarian_MakeBarbBannerI</li>
-	   <li>pphhyy_Barbarian_MakeBarbBannerII</li>
-	   <li>pphhyy_Barbarian_MakeBarbBannerIII</li>
-	   <li>pphhyy_Barbarian_MakeBarbBannerIV</li>
+       <li>pphhyy_Barbarian_MakeWarlordHelm</li>
+       <li>pphhyy_Barbarian_MakeWarlordHelmII</li>
+       <li>pphhyy_Barbarian_MakeWarlordHelmIII</li>
 	   
-	   <li>pphhyy_Barbarian_MakeRoundShield</li>
-	   <li>pphhyy_Barbarian_MakeRoundShieldII</li>
-	   <li>pphhyy_Barbarian_MakeRoundShieldIII</li>
+       <li>pphhyy_Barbarian_MakeWarlordArmor</li>
+       <li>pphhyy_Barbarian_MakeWarlordArmorII</li>
 	   
-	   <li>pphhyy_Barbarian_MakeTallShield</li>
-	   <li>pphhyy_Barbarian_MakeTallShieldII</li>
-	   <li>pphhyy_Barbarian_MakeTallShieldIII</li>	   -->
+	   <li>pphhyy_Barbarian_MakeBearHeaddressI</li>
+       <li>pphhyy_Barbarian_MakeBearHeaddressII</li>
+	   
+	   <li>pphhyy_Barbarian_MakeBoneHelmI</li>
+       <li>pphhyy_Barbarian_MakeBoneHelmII</li>
+       <li>pphhyy_Barbarian_MakeBoneHelmIII</li>
+	   
+       <li>pphhyy_Barbarian_MakeChosenHorn</li>
+       <li>pphhyy_Barbarian_MakeChosenHornII</li>
+       <li>pphhyy_Barbarian_MakeChosenHornIII</li>
+	   
+       <li>pphhyy_Barbarian_MakeChosenAntler</li>
+       <li>pphhyy_Barbarian_MakeChosenAntlerII</li>
+       <li>pphhyy_Barbarian_MakeChosenAntlerIII</li>
+	   
+       <li>pphhyy_Barbarian_MakeMetalHelm</li>
+       <li>pphhyy_Barbarian_MakeMetalHelmII</li>
+       <li>pphhyy_Barbarian_MakeMetalHelmIII</li>
+	   
+       <li>pphhyy_Barbarian_MakeSpikedCap</li>
+       <li>pphhyy_Barbarian_MakeSpikedCapII</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -95,13 +110,13 @@
   </ThingDef>
 
   <WorkGiverDef>
-    <defName>DoBillsMakeBarbWeapons</defName>
-    <label>make Barb weapons</label>
+    <defName>DoBillsMakeBarbArmor</defName>
+    <label>make Barb Armor</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Smithing</workType>
     <priorityInType>115</priorityInType>
     <fixedBillGiverDefs>
-      <li>pphhyy_Barbarians_Building_WeaponBench</li>
+      <li>pphhyy_Barbarians_Building_ArmorBench</li>
     </fixedBillGiverDefs>
     <verb>smith</verb>
     <gerund>smithing at</gerund>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="pphhyy_BaseShield">
-    <defName>pphhyy_Barbarian_TallShield</defName>
-    <label>Barbarian Tall Shield</label>
-    <description>A Tall shield looted from the battlefield.</description>
+<ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_RoundShield</defName>
+    <label>Barbarian Round Shield</label>
+    <description>A Round shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
-      <texPath>Shields/Barbarian_TallShield</texPath>
+      <texPath>Shields/Barbarian_RoundShield</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Neolithic</techLevel>
@@ -25,12 +25,12 @@
 	  <ArmorRating_Heat>0.264</ArmorRating_Heat>
     </equippedStatOffsets>
     <weaponTags>
-      <li>pphhyy_Barbarian_BarbTallShield1</li>
+      <li>pphhyy_Barbarian_BarbRoundShield1</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
-				<li>pphhyy_Barbarian_BarbTallShield1</li>
+				<li>pphhyy_Barbarian_BarbRoundShield1</li>
 			</shieldTags>
 			<useDeflectMetalEffect>false</useDeflectMetalEffect>
 			<coveredBodyPartGroups>
@@ -40,7 +40,7 @@
 				<li>Hands</li>
 			</coveredBodyPartGroups>
 			<offHandGraphicData>
-				<texPath>Shields/Barbarian_TallShield</texPath>
+				<texPath>Shields/Barbarian_RoundShield</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<shaderType>CutoutComplex</shaderType>
 			</offHandGraphicData>
@@ -85,9 +85,9 @@
   </ThingDef>
 
   <RecipeDef>
-    <defName>pphhyy_Barbarian_MakeTallShield</defName>
-    <label>make Tall shield</label>
-    <description>Make a Tall shield looted from the battlefield.</description>
+    <defName>pphhyy_Barbarian_MakeRoundShield</defName>
+    <label>make Round shield</label>
+    <description>Make a Round shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -97,7 +97,7 @@
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
- <!--     <li>
+<!--      <li>
         <filter>
           <thingDefs>
             <li>DankPyon_Shield</li>
@@ -133,17 +133,17 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <pphhyy_Barbarian_TallShield>1</pphhyy_Barbarian_TallShield>
+      <pphhyy_Barbarian_RoundShield>1</pphhyy_Barbarian_RoundShield>
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
-    <defName>pphhyy_Barbarian_TallShieldII</defName>
-    <label>Barbarian Tall Shield II</label>
-    <description>A Tall shield looted from the battlefield.</description>
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_RoundShieldII</defName>
+    <label>Barbarian Round Shield II</label>
+    <description>A Round shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
-      <texPath>Shields/Barbarian_TallShieldII</texPath>
+      <texPath>Shields/Barbarian_RoundShieldII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Neolithic</techLevel>
@@ -161,12 +161,12 @@
 	  <ArmorRating_Heat>0.304</ArmorRating_Heat>
     </equippedStatOffsets>
     <weaponTags>
-      <li>pphhyy_Barbarian_BarbTallShield2</li>
+      <li>pphhyy_Barbarian_BarbRoundShield2</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
-				<li>pphhyy_Barbarian_BarbTallShield2</li>
+				<li>pphhyy_Barbarian_BarbRoundShield2</li>
 			</shieldTags>
 			<useDeflectMetalEffect>false</useDeflectMetalEffect>
 			<coveredBodyPartGroups>
@@ -176,7 +176,7 @@
 				<li>Hands</li>
 			</coveredBodyPartGroups>
 			<offHandGraphicData>
-				<texPath>Shields/Barbarian_TallShieldII</texPath>
+				<texPath>Shields/Barbarian_RoundShieldII</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<shaderType>CutoutComplex</shaderType>
 			</offHandGraphicData>
@@ -221,9 +221,9 @@
   </ThingDef>
 
   <RecipeDef>
-    <defName>pphhyy_Barbarian_MakeTallShieldII</defName>
-    <label>make Tall shield II</label>
-    <description>Make a Tall shield looted from the battlefield.</description>
+    <defName>pphhyy_Barbarian_MakeRoundShieldII</defName>
+    <label>make Round shield II</label>
+    <description>Make a Round shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -236,7 +236,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>pphhyy_Barbarian_TallShield</li>
+            <li>pphhyy_Barbarian_RoundShield</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -252,22 +252,22 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>pphhyy_Barbarian_TallShield</li>
+        <li>pphhyy_Barbarian_RoundShield</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <pphhyy_Barbarian_TallShieldII>1</pphhyy_Barbarian_TallShieldII>
+      <pphhyy_Barbarian_RoundShieldII>1</pphhyy_Barbarian_RoundShieldII>
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
-    <defName>pphhyy_Barbarian_TallShieldIII</defName>
-    <label>Barbarian Tall Shield III</label>
-    <description>A Tall shield looted from the battlefield.</description>
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_RoundShieldIII</defName>
+    <label>Barbarian Round Shield III</label>
+    <description>A Round shield looted from the battlefield.</description>
     <equipmentType>None</equipmentType>
     <graphicData>
-      <texPath>Shields/Barbarian_TallShieldIII</texPath>
+      <texPath>Shields/Barbarian_RoundShieldIII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Neolithic</techLevel>
@@ -285,12 +285,12 @@
 	  <ArmorRating_Heat>0.35</ArmorRating_Heat>
     </equippedStatOffsets>
     <weaponTags>
-      <li>pphhyy_Barbarian_BarbTallShield3</li>
+      <li>pphhyy_Barbarian_BarbRoundShield3</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
-				<li>pphhyy_Barbarian_BarbTallShield3</li>
+				<li>pphhyy_Barbarian_BarbRoundShield3</li>
 			</shieldTags>
 			<useDeflectMetalEffect>false</useDeflectMetalEffect>
 			<coveredBodyPartGroups>
@@ -300,7 +300,7 @@
 				<li>Hands</li>
 			</coveredBodyPartGroups>
 			<offHandGraphicData>
-				<texPath>Shields/Barbarian_TallShieldIII</texPath>
+				<texPath>Shields/Barbarian_RoundShieldIII</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<shaderType>CutoutComplex</shaderType>
 			</offHandGraphicData>
@@ -345,9 +345,9 @@
   </ThingDef>
 
   <RecipeDef>
-    <defName>pphhyy_Barbarian_MakeTallShieldIII</defName>
-    <label>make Tall shield III</label>
-    <description>Make a Tall shield looted from the battlefield.</description>
+    <defName>pphhyy_Barbarian_MakeRoundShieldIII</defName>
+    <label>make Round shield III</label>
+    <description>Make a Round shield looted from the battlefield.</description>
     <jobString>Making Shield.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -360,7 +360,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>pphhyy_Barbarian_TallShieldII</li>
+            <li>pphhyy_Barbarian_RoundShieldII</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -376,12 +376,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>pphhyy_Barbarian_TallShieldII</li>
+        <li>pphhyy_Barbarian_RoundShieldII</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <pphhyy_Barbarian_TallShieldIII>1</pphhyy_Barbarian_TallShieldIII>
+      <pphhyy_Barbarian_RoundShieldIII>1</pphhyy_Barbarian_RoundShieldIII>
     </products>
   </RecipeDef>
 

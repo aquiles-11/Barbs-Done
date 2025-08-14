@@ -2,11 +2,11 @@
 <Defs>
 
 <ThingDef ParentName="HatMakeableBaseBarbs">
-    <defName>pphhyy_Barbarians_ChosenHorn</defName>
-    <label>Chosen Horn Helm</label>
-    <description>Chosen Horn helm made from armor and skulls looted on the battlefield.</description>
+    <defName>pphhyy_Barbarians_ChosenSpike</defName>
+    <label>Chosen Spike Helm</label>
+    <description>Chosen Spike helm made from armor and skulls looted on the battlefield.</description>
     <graphicData>
-      <texPath>Armor/ChosenHorn/ChosenHorn</texPath>
+      <texPath>Armor/ChosenSpike/ChosenSpike</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -30,12 +30,13 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <useWornGraphicMask>true</useWornGraphicMask>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/ChosenHorn/ChosenHorn</wornGraphicPath>
+      <wornGraphicPath>Armor/ChosenSpike/ChosenSpike</wornGraphicPath>
       <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
       <layers>
         <li>Overhead</li>
@@ -49,9 +50,9 @@
   </ThingDef>
 
   <RecipeDef>
-    <defName>pphhyy_Barbarian_MakeChosenHorn</defName>
-    <label>make Chosen Horn Helm</label>
-    <description>Make a Chosen Horn helm made from armor and skulls looted on the battlefield.</description>
+    <defName>pphhyy_Barbarian_MakeChosenSpike</defName>
+    <label>make Chosen Spike Helm</label>
+    <description>Make a Chosen Spike helm made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Rusted Armor</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -64,7 +65,7 @@
       <li>
         <filter>
           <thingDefs>
-<!--            <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
+         <!--   <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
             <li>DankPyon_Headgear_SalletHelmet</li>
             <li>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</li>
             <li>DankPyon_Headgear_GreatHelm</li>
@@ -90,7 +91,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-            <!--<li>DankPyon_Headgear_ClosedBascinetHelmet</li>
+          <!--  <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
             <li>DankPyon_Headgear_SalletHelmet</li>
             <li>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</li>
             <li>DankPyon_Headgear_GreatHelm</li>
@@ -105,17 +106,17 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <pphhyy_Barbarians_ChosenHorn>1</pphhyy_Barbarians_ChosenHorn>
+      <pphhyy_Barbarians_ChosenSpike>1</pphhyy_Barbarians_ChosenSpike>
     </products>
 	<!-- <researchPrerequisite>Brachyura_Breeding_I</researchPrerequisite> -->
   </RecipeDef>
 
   <ThingDef ParentName="HatMakeableBaseBarbs">
-    <defName>pphhyy_Barbarians_ChosenHornII</defName>
-    <label>Chosen Horn Helm II</label>
-    <description>Chosen Horn helm made from armor and skulls looted on the battlefield.</description>
+    <defName>pphhyy_Barbarians_ChosenSpikeII</defName>
+    <label>Chosen Spike II</label>
+    <description>Chosen Spike helm made from armor and skulls looted on the battlefield.</description>
     <graphicData>
-      <texPath>Armor/ChosenHorn/ChosenHornII</texPath>
+      <texPath>Armor/ChosenSpike/ChosenSpikeII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -139,28 +140,26 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <useWornGraphicMask>true</useWornGraphicMask>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/ChosenHorn/ChosenHornII</wornGraphicPath>
+      <wornGraphicPath>Armor/ChosenSpike/ChosenSpikeII</wornGraphicPath>
       <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
       <layers>
         <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
       </defaultOutfitTags>
-      <tags>
-        <li>pphhyy_Barbarian_BarbChosenApparel</li>
-      </tags>
     </apparel>
   </ThingDef>
 
   <RecipeDef>
-    <defName>pphhyy_Barbarian_MakeChosenHornII</defName>
-    <label>make Chosen Horn Helm II</label>
-    <description>Make a Chosen Horn helm made from armor and skulls looted on the battlefield.</description>
+    <defName>pphhyy_Barbarian_MakeChosenSpikeII</defName>
+    <label>make Chosen Spike helm II</label>
+    <description>Make a Chosen Spike helm made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Rusted Armor.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -173,7 +172,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>pphhyy_Barbarians_ChosenHorn</li>
+            <li>pphhyy_Barbarians_ChosenSpike</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -189,21 +188,21 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>pphhyy_Barbarians_ChosenHorn</li>
+        <li>pphhyy_Barbarians_ChosenSpike</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <pphhyy_Barbarians_ChosenHornII>1</pphhyy_Barbarians_ChosenHornII>
+      <pphhyy_Barbarians_ChosenSpikeII>1</pphhyy_Barbarians_ChosenSpikeII>
     </products>
   </RecipeDef>
 
   <ThingDef ParentName="HatMakeableBaseBarbs">
-    <defName>pphhyy_Barbarians_ChosenHornIII</defName>
-    <label>Chosen Horn III</label>
-    <description>Chosen Horn helm made from armor and skulls looted on the battlefield.</description>
+    <defName>pphhyy_Barbarians_ChosenSpikeIII</defName>
+    <label>Chosen Spike III</label>
+    <description>Chosen Spike helm made from armor and skulls looted on the battlefield.</description>
     <graphicData>
-      <texPath>Armor/ChosenHorn/ChosenHornIII</texPath>
+      <texPath>Armor/ChosenSpike/ChosenSpikeIII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -227,12 +226,13 @@
       <SuppressionPower MayRequire="ludeon.rimworld.ideology">0.5</SuppressionPower>
     </equippedStatOffsets>
     <apparel>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth> 
       <useWornGraphicMask>true</useWornGraphicMask>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/ChosenHorn/ChosenHornIII</wornGraphicPath>
+      <wornGraphicPath>Armor/ChosenSpike/ChosenSpikeIII</wornGraphicPath>
       <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
       <layers>
         <li>Overhead</li>
@@ -246,9 +246,9 @@
   </ThingDef>
 
   <RecipeDef>
-    <defName>pphhyy_Barbarian_MakeChosenHornIII</defName>
-    <label>make Chosen Horn Helm III</label>
-    <description>Make a Chosen Horn made from armor and skulls looted on the battlefield.</description>
+    <defName>pphhyy_Barbarian_MakeChosenSpikeIII</defName>
+    <label>make Chosen Spike III</label>
+    <description>Make a Chosen Spike made from armor and skulls looted on the battlefield.</description>
     <jobString>Making Rusted Armor.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
@@ -261,7 +261,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>pphhyy_Barbarians_ChosenHornII</li>
+            <li>pphhyy_Barbarians_ChosenSpikeII</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -277,12 +277,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>pphhyy_Barbarians_ChosenHornII</li>
+        <li>pphhyy_Barbarians_ChosenSpikeII</li>
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <pphhyy_Barbarians_ChosenHornIII>1</pphhyy_Barbarians_ChosenHornIII>
+      <pphhyy_Barbarians_ChosenSpikeIII>1</pphhyy_Barbarians_ChosenSpikeIII>
     </products>
   </RecipeDef>
 

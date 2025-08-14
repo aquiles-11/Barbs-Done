@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="pphhyy_BaseShield" ParentName="DankPyon_BaseShield" Abstract="True">
+	<ThingDef Name="pphhyy_BaseShield" Abstract="True">
 		<costList>
 		  <Skull>1</Skull>
 		</costList>
+    <thingClass>VEF.Apparels.Apparel_Shield</thingClass>
 		<burnableByRecipe>true</burnableByRecipe>
 		<smeltable>false</smeltable>
 	</ThingDef>
 
-<ThingDef ParentName="pphhyy_BaseShield">
+<ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_BarbBannerI</defName>
     <label>Barbarian Banner I</label>
     <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
@@ -36,7 +37,7 @@
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>NeolithicMeleeBasic</li>
 			</shieldTags>
@@ -146,7 +147,7 @@
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_BarbBannerII</defName>
     <label>Barbarian Banner II</label>
     <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
@@ -173,7 +174,7 @@
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>NeolithicMeleeBasic</li>
 			</shieldTags>
@@ -271,7 +272,7 @@
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_BarbBannerIII</defName>
     <label>Barbarian Banner III</label>
     <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
@@ -298,7 +299,7 @@
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>NeolithicMeleeBasic</li>
 			</shieldTags>
@@ -396,7 +397,7 @@
     </products>
   </RecipeDef>
 
-  <ThingDef ParentName="pphhyy_BaseShield">
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
     <defName>pphhyy_Barbarian_BarbBannerIV</defName>
     <label>Barbarian Banner IV</label>
     <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
@@ -426,7 +427,7 @@
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
     <comps>
-		<li Class="VFECore.CompProperties_Shield">
+		<li Class="VEF.Apparels.CompProperties_Shield">
 			<shieldTags>
 				<li>NeolithicMeleeBasic</li>
 			</shieldTags>
